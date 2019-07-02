@@ -1,3 +1,23 @@
+## AssetsWebsite的使用
+
+如果你的网站在assets下，那么你就用AssetsWebsite来部署你的网站。
+
+使用方法是：
+
+```
+//AssetManager不能被关闭。
+AssetManager mAssetManager = getAssets();
+Wesite wesite = new AssetsWebsite(mAssetManager, youPath);
+```
+
+上面我们看到new AssetsWebsite时需要传一个AssetManager和一个path，path支持assets根目录和子目录，下面是这两种情况的举例。
+
+如果你的网站在assets根目录下, 你的path就填""，比如：
+```
+Wesite wesite = new AssetsWebsite(mAssetManager, "");
+```
+
+
 # AndServer
 
 ![Logo](./images/logo.svg)
