@@ -1,3 +1,10 @@
+特点
+
+接受客户端文件上传、下载文件。
+动态Http API，就像Java的Servlet一样写接口。
+部署静态网站，例如纯Html，支持JS、CSS、Image分离。
+部署动态网站，例如Html表单，当然可以结合上面的Android Http接口。
+
 ## AssetsWebsite的使用
 
 如果你的网站在assets下，那么你就用AssetsWebsite来部署你的网站。
